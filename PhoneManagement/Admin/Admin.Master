@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="PhoneManagement.Admin.Admin" %>
+
+<%@ Register Src="~/Admin/UserControlsAdmin/_LeftMenu.ascx" TagPrefix="uc1" TagName="_LeftMenu" %>
+<%@ Register Src="~/Admin/UserControlsAdmin/_TopNav.ascx" TagPrefix="uc1" TagName="_TopNav" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <meta name="copyright" content="Công ty Cổ phần Bán lẻ Kỹ thuật số Anh Đỗ" />
+    <meta name="author" content="Công ty Cổ phần Bán lẻ Kỹ thuật số Anh Đỗ" />
+
+   
+
+    <!-- Bootstrap -->
+    <link href="../public/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../public/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../public/css/admin.css" rel="stylesheet" />
+    <link href="../public/build/css/custom.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body class="nav-md">
+    <form id="form1" runat="server">
+        <div class="container body">
+            <div class="main_container">
+                <div class="col-md-3 left_col">
+                    <uc1:_LeftMenu runat="server" ID="_LeftMenu" />
+                </div>
+                <!-- top navigation -->
+                <uc1:_TopNav runat="server" ID="_TopNav" />
+                <!-- /top navigation -->
+                <!-- page content -->
+                <div class="right_col" role="main">
+                    <div class="">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
+
+                                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /page content -->
+                <!-- footer content -->
+                <footer>
+                    <div class="pull-right">
+                        Mobile - Admin Area by <a href="http://www.anhdomobile.somee.com"><b>Anh Do</b></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+                <!-- /footer content -->
+            </div>
+        </div>
+
+
+    </form>
+
+    <!-- jQuery -->
+    <script src="../public/js/jquery-3.1.1.min.js"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../public/js/bootstrap.min.js"></script>
+
+    <script src="../ckeditor/ckeditor.js"></script>
+
+    <script src="../public/build/js/custom.min.js"></script>
+
+    <script src="../public/js/admin.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PhoneManagement.SiteMaster" %>
+<%@ Register Src="~/UserControls/Templates/UcHead.ascx" TagPrefix="uc1" TagName="UcHead" %>
+<%@ Register Src="~/UserControls/Templates/UcFooter.ascx" TagPrefix="uc1" TagName="UcFooter" %>
+<%@ Register Src="~/UserControls/Templates/UcSidebar.ascx" TagPrefix="uc1" TagName="UcSidebar" %>
+<!DOCTYPE html>
+<html lang="vi">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://cdn1.tgdd.vn/v2015/Scripts/desktop/detectie/html5shiv.js"></script>
+  <script src="https://cdn2.tgdd.vn/v2015/Scripts/desktop/detectie/respond.min.js"></script>
+<![endif]-->
+
+<head runat="server">
+    <%-- UcHead Templates --%>
+    <uc1:UcHead runat="server" ID="UcHead" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%-- UcSidebar Templates --%>
+        <uc1:UcSidebar runat="server" ID="UcSidebar" />
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <%-- UcFoodter Templates --%>
+        <uc1:UcFooter runat="server" ID="UcFooter" />
+
+    </form>
+
+</body>
+</html>

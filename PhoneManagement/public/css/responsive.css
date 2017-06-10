@@ -1,0 +1,469 @@
+@media screen and (max-width: 1280px) {
+    /* Home Page */
+    #footer .container {
+        padding: 0 10px;
+    }
+
+    .container,
+    #manufacturer, #banner,
+    #content, #footer .container,
+    #detail,
+    #branch .container,
+    #about .container,
+    #contact .container,
+    #news .container,
+    .telephone_page,
+    #shopping_cart,
+    .cart_detail {
+        width: 100%;
+    }
+
+        #manufacturer li {
+            width: 9.09%;
+        }
+
+        #banner .col-lg-8 {
+            width: 66.66%;
+        }
+
+        #banner .sub_banner {
+            width: 33.33%;
+        }
+
+        #content .inner_content {
+            width: 66.66%;
+        }
+
+        #content #tech_news {
+            width: 33.33%;
+        }
+    /* end Home Page */
+}
+
+@media screen and (max-width: 1080px) {
+
+    /* Phone Page */
+    .telephone_page .box_product {
+        width: 20%;
+    }
+    /* end Phong Page */
+
+    /* Detail Page */
+    #detail_info #btn_buy li a {
+        font-size: 16px;
+    }
+    /* end Detail Page */
+}
+
+@media screen and (max-width: 980px) {
+    /* Home Page */
+    .inner_content .box_product {
+        width: 33.3333%;
+    }
+
+    #footer .top span {
+        margin-top: 5px!important;
+    }
+
+    ul.searched li a {
+        font-size: 11px;
+        padding: 5px 0;
+    }
+
+    #copy_right .row div {
+        width: 33.33333%;
+    }
+
+    #copy_right .text {
+        font-size: 10px;
+    }
+    /* end Home Page */
+
+}
+
+@media screen and (max-width: 880px) {
+    /* Home Page */
+    ul.searched li:first-child {
+        display: none;
+    }
+
+    #copy_right img[src="public/upload/logo/logo.png"] {
+        width: 150px;
+    }
+    /* end Home Page */
+
+    /* Contact Page */
+    #contact div h3 {
+        font-size: 18px;
+    }
+
+    #contact div h4 {
+        font-size: 16px;
+    }
+    /* end Contact Page */
+
+    /* Phone Page */
+    .telephone_page .box_product {
+        width: 25%;
+    }
+    /* end Phong Page */
+
+    /* Detail Page */
+    #detail {
+        font-size: 12px;
+    }
+
+    #detail_info #btn_buy li {
+        width: 100%;
+    }
+
+    #detail .menu_left li a {
+        padding: 1px;
+    }
+    /* end Detail Page */
+
+    /* News Page */
+    #news #tech_news .box_news .col-md-9 {
+        width: 58.33%;
+    }
+
+    #news #tech_news .box_news .col-md-3 {
+        width: 41.66%;
+    }
+    /* end News Page */
+}
+
+@media screen and (max-width: 767px) {
+    /* Home Page */
+    div.margin_top20 {
+        margin-top: 0!important;
+    }
+
+    .box_product a b {
+        font-size: 8px;
+    }
+
+    #content .col-lg-4 {
+        padding: 0;
+    }
+
+    #footer .top {
+        float: none!important;
+    }
+
+    ul.searched li a {
+        padding: 5px 10px;
+    }
+    /* end Home Page */
+
+    /* About Page */
+    #about {
+        font-size: 12px;
+    }
+
+        #about img {
+            height: 180px;
+        }
+    /* end About Page */
+
+    /* Phone Page */
+    .telephone_page .col-md-2 h6 {
+        display: none;
+    }
+
+    .phone_banner {
+        text-align: center;
+    }
+
+        .phone_banner img {
+            width: 45%;
+        }
+    /* end Phong Page */
+
+    /* Detail Page */
+    #detail_info {
+        width: 100%;
+    }
+
+    #detail .menu_right {
+        display: none;
+    }
+    /* end Detail Page */
+
+    /* News Page */
+    #news #tech_news .box_news .col-md-3 img {
+        width: 65px;
+    }
+    /* end News Page */
+}
+
+@media screen and (max-width: 700px) {
+    /* Home Page */
+    #banner .col-lg-8 {
+        width: 100%;
+    }
+
+    #banner .mySlides img {
+        height: 100%;
+    }
+
+    #banner .sub_banner {
+        display: none;
+    }
+
+    #content .inner_content {
+        width: 100%;
+    }
+
+    #content #tech_news {
+        width: 100%;
+    }
+
+    #tech_news .box_news .col-md-9 {
+        width: 83.33%;
+    }
+
+    #tech_news .box_news .col-md-3 {
+        width: 16.66%;
+    }
+
+    #content .banner_aside {
+        display: none;
+    }
+
+    #footer .top, #footer .col-md-10 {
+        display: none;
+    }
+
+    #copy_right .col-md-5 {
+        width: 55%!important;
+    }
+
+    #copy_right .col-md-3 {
+        width: 45%!important;
+    }
+
+    #copy_right .col-md-4 {
+        display: none;
+    }
+    /* end Home Page */
+
+    /* Contact Page */
+    #contact {
+        font-size: 12px;
+    }
+
+        #contact div h3 {
+            font-size: 15px;
+        }
+
+        #contact div h4 {
+            font-size: 14px;
+        }
+    /* end Contact Page */
+
+    /* Phone Page */
+    .telephone_page .box_product {
+        width: 33.3333%;
+    }
+    /* end Phong Page */
+
+    /* Shopping Cart */
+    #shopping_cart .title li {
+        font-size: 18px;
+    }
+
+    #shopping_cart .title img {
+        width: 30px;
+    }
+
+    .cart_detail .total .col-md-3 {
+        width: 50%;
+    }
+    /* end Shopping Cart */
+
+    /* News Page */
+    #news .text {
+        width: 100%;
+    }
+
+    #news #tech_news {
+        display: none;
+    }
+    /* end News Page */
+}
+
+@media screen and (max-width: 580px) {
+    /* Branch Page  */
+    #branch .col-md-4, #branch .col-md-8 {
+        width: 100%;
+    }
+
+    #branch .col-md-8 {
+        height: 400px;
+    }
+    /* end Branch Page */
+
+    /* Contact Page */
+    #contact .col-md-4, #contact .col-md-8 {
+        width: 100%;
+    }
+    /* end Contact Page */
+
+    /* Detail Page */
+    #detail {
+        font-size: 12px;
+    }
+
+        #detail .menu_left {
+            display: none;
+        }
+
+    #detail_info .col-md-4, #detail_info .col-md-8 {
+        width: 100%;
+    }
+
+        #detail_info .col-md-4 img {
+            width: 30%;
+        }
+    /* end Detail Page */
+
+    /* Shopping Cart */
+    #shopping_cart .payment {
+        font-size: 12px;
+    }
+    /* end Shopping Cart */
+}
+
+@media screen and (max-width: 480px) {
+    /* Home Page */
+    #manufacturer li {
+        width: 14.28%;
+    }
+
+    .inner_content .box_product {
+        width: 50%;
+    }
+
+        .inner_content .box_product:nth-child(odd) {
+            display: none;
+        }
+
+    #tech_news .box_news .col-md-9 {
+        width: 66.66%;
+    }
+
+    #tech_news .box_news .col-md-3 {
+        width: 33.33%;
+    }
+
+    #copy_right {
+        font-size: 10px;
+    }
+    /* end Home Page */
+
+    /* About Page */
+    #about img {
+        height: 140px;
+    }
+
+    #about h3 {
+        font-size: 18px;
+    }
+    /* end About Page */
+
+    /* Phone Page */
+    .telephone_page .box_product img {
+        height: 90px;
+    }
+
+    .telephone_page .box_product .name,
+    .telephone_page .box_product div {
+        text-align: center;
+    }
+
+        .telephone_page .box_product div a {
+            float: none!important;
+        }
+
+            .telephone_page .box_product div a b {
+                font-size: 12px;
+            }
+    /* end Phong Page */
+
+    /* Shopping Cart */
+    #shopping_cart .info .price {
+        font-size: 12px;
+    }
+
+    #shopping_cart .title li {
+        font-size: 14px;
+    }
+
+    #shopping_cart .payment button {
+        width: 100%;
+    }
+    /* end Shopping Cart */
+
+    /* News Page */
+    #news .text h2 {
+        font-size: 24px;
+    }
+
+    #news .text h3 {
+        font-size: 20px;
+    }
+
+    #news .text p {
+        font-size: 14px;
+    }
+
+    #news #comment {
+        padding: 0;
+    }
+    /* end News Page */
+}
+
+@media screen and (max-width: 380px) {
+    /* Home Page */
+    .inner_content .box_product img {
+        height: 90px;
+    }
+
+    .inner_content .box_product .name {
+        font-size: 9px;
+    }
+
+    #copy_right .row div {
+        width: 100%!important;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    #copy_right .col-md-3 {
+        display: none;
+    }
+    /* end Home Page */
+
+    /* Phone Page */
+    .telephone_page .box_product {
+        width: 50%;
+    }
+    /* end Phong Page */
+
+    /* Detail Page */
+    #detail .title .name {
+        font-size: 14px;
+    }
+
+    #detail_info #specifications h3, #detail_info #picture h3 {
+        font-size: 20px;
+    }
+    /* end Detail Page */
+
+    /* Shopping Cart */
+    #shopping_cart .title li {
+        font-size: 12px;
+    }
+    /* end Shopping Cart */
+}
